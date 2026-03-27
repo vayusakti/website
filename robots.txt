@@ -1,0 +1,13 @@
+# Robots.txt for Vayusakti Future Construct
+# Allow indexing of main page, control crawl rate
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Crawl delay to avoid aggressive bots
+Crawl-delay: 10
+
+# Sitemap (create this file if you add more pages later)
+Sitemap: https://jolly-griffin-049333.netlify.app/sitemap.xml
